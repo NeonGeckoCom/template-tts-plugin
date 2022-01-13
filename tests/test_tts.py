@@ -36,7 +36,7 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from neon_tts_plugin_TODO_NAME import TemplateTTS  # TODO: Update Import
 
 
-class TestPolly(unittest.TestCase):
+class TestTTS(unittest.TestCase):
     def setUp(self) -> None:
         self.tts = TemplateTTS()
 
